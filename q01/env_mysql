@@ -1,0 +1,4 @@
+export MYSQLU='salesadmin'
+export MYSQLP='your_password_here'
+export REPORTS='~/reports'
+export ARCHIVE='~/archive'
