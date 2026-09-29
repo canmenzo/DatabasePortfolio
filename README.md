@@ -5,7 +5,7 @@
 Archived coursework from spring 2021 (Activity 7): Bash scripts that query a MySQL `sales` database of car sales and turn the results into per-model reports. Kept as a learning project.
 
 ### ✨ What's in it
-- ⚙️ `q01/q01.sh`: writes the `env_mysql` file with the MySQL user, password and report/archive paths, and symlinks it into the other question folders
+- ⚙️ `q01/q01.sh`: writes the `env_mysql` file with the MySQL user, password (a `your_password_here` placeholder; set your own) and report/archive paths, and symlinks it into the other question folders
 - 🔎 `q02/q02.sh <year> <model> <all|new|used>`: count of cars sold plus total dealer cost, sale price and list price for one model and year
 - 📋 `q03/q03.sh <model>`: checks the model name against the database, then builds a 2010 to 2016 sales report for all, new and used cars
 - 💰 `q04/q04.sh <model>`: the same report with profit, discount, and average profit and discount per car added
